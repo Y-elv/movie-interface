@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+
+   
+}
+input{
+    width: 80%;
+    height:25%;
+    color:white;
+    border-radius: 30px;
+    font-size: large;
+  
+}
+
+.search-box {
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .search-box input{
+    padding-right: 30px; /* add space for the icon */
+  }
+  input::placeholder {
+    color: #999;
+    font-style: italic;
+    padding: 1px 1px 1px 25px;
+  }
+  
+  .search-box .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0, -50%);
+  }
