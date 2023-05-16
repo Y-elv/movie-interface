@@ -17,10 +17,13 @@ input{
     position: relative;
     margin-bottom: 20px;
     margin-top: 20px;
+    margin-left: 95px;
   }
   
   .search-box input{
     padding-right: 30px; /* add space for the icon */
+    color:black;
+    padding-left: 25px;
   }
   input::placeholder {
     color: #999;
